@@ -1,0 +1,27 @@
+number: 0
+difficulty: 0
+gas_limit: 0
+timestamp: 0
+initial_ether: 100000000000000
+txs:
+  - sender_select: 4
+    call_value: 0x100000000
+    length: 44
+    block_advance: 0
+    return_count: 1
+    input: "0x95d89b41367763b33c97f0872b532081319c37d2"
+    returns: []
+  - sender_select: 4
+    call_value: 0x100000000
+    length: 68
+    block_advance: 0
+    return_count: 1
+    input: "0xc8756e862673e8a6a8121d41c73e05a3695f20e3"
+    returns: []
+  - sender_select: 4
+    call_value: 0
+    length: 60
+    block_advance: 10
+    return_count: 1
+    input: "0x93421c75595a245901a4c565467a989112c281c6"
+    returns: []  
