@@ -57,20 +57,19 @@ contract Flags {
     //i)test_string = "MY_SALT" and ii) val <= keccak256(abi.encodePacked((mytest))
     if (val_b==val_a){
         one_byte = val_a[1];
-        }else{
-        one_byte = val_a[2];
-        } 
+        
       for (uint i; i < 32; i++) {
         if(val_a[i] != one_byte) {
           sum = sum + 10;           
         } 
+      }
        
       uint divide = ((sum * 3)**uint(4))/5;
       uint mod = divide%33; 
       return int(mod) + int(sum);             
   } 
   
-    if (val==keccak256(abi.encodePacked(("abc"))) && keccak256(abi.encodePacked(val))==keccak256(test_string)) {
+    if (new_val==keccak256(abi.encodePacked(("abc"))) && keccak256(abi.encodePacked(val))==keccak256(test_string)) {
       return int(val_b);
   } 
   return 0; 
