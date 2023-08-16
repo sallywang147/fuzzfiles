@@ -1,0 +1,14 @@
+number: 0
+difficulty: 0
+gas_limit: 0
+timestamp: 0
+initial_ether: 100000000000000
+txs:
+  - sender_select: 4
+    call_value: 0x100000000
+    length: 32
+    block_advance: 0
+    return_count: 1
+    input: "0x55117e8f1000000000000000000000000000000000000000000000000000000000000000"
+    returns: []
+ 
